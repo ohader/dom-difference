@@ -9,7 +9,12 @@
             "email": "oliver@typo3.org"
         }
     ],
-    "require": {},
+    "require": {
+        "symfony/dom-crawler": "^2.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
     "autoload": {
         "psr-4": {
             "OliverHader\\DomDifference\\": "src/"
